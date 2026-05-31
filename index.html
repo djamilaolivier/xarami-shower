@@ -3,12 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Baby Shower Meghan · Lista de Regalos</title>
+<title>Baby Shower Xarami · Lista de Regalos</title>
 <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 
 <!-- ✅ PASO 1: Reemplaza estos valores con los de tu proyecto Firebase -->
 <script>
   const FIREBASE_URL = "https://meghan-shower-5cb3f-default-rtdb.europe-west1.firebasedatabase.app";
+  // Nom de la bebè: Xarami
   // 👆 Cambia esto por la URL de tu Firebase Realtime Database
   // Ejemplo: "https://meghan-shower-default-rtdb.firebaseio.com"
 </script>
@@ -127,6 +128,7 @@
   .tip-box{background:white;border:1px solid var(--pink-mid);border-radius:14px;padding:14px 18px;margin:24px 0;font-size:12px;color:var(--muted);line-height:1.7;}
   .tip-box strong{color:var(--pink-deep);}
   footer{text-align:center;margin-top:44px;font-size:11px;color:var(--gold);letter-spacing:.1em;}
+  /* Xarami */
 
   /* SETUP BANNER */
   .setup-banner{background:#fff3cd;border:1px solid #ffc107;border-radius:12px;padding:14px 18px;margin-bottom:20px;font-size:12px;color:#856404;line-height:1.7;display:none;}
@@ -148,7 +150,7 @@
   <p class="hero-eyebrow">Baby Shower</p>
   <p class="hero-sub">Te invitamos a celebrar la llegada de</p>
   <div class="hero-divider"><span>✦</span></div>
-  <p class="hero-name">Meghan</p>
+  <p class="hero-name">Xarami</p>
   <p class="hero-date">El sábado 20 · 06 · 26</p>
   <p class="hero-desc">Confírmanos que podrás compartir con nosotros y pronto te informaremos el lugar y la hora.</p>
   <p class="hero-mama">Mamá: <span>Yineisa</span> 🌸</p>
@@ -165,7 +167,7 @@
   </div>
 
   <div style="text-align:center;margin-bottom:16px;">
-    <p style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--pink-dark);font-weight:300;">Lista de regalos para <em style="font-style:italic;">Meghan</em></p>
+    <p style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--pink-dark);font-weight:300;">Lista de regalos para <em style="font-style:italic;">Xarami</em></p>
     <p style="font-size:12px;color:var(--muted);margin-top:6px;font-weight:300;">Pulsa ✓ para reservar · Se actualiza en tiempo real para todos</p>
   </div>
 
@@ -190,9 +192,9 @@
   <div class="items-list" id="items-list"></div>
 
   <div class="tip-box">
-    💡 <strong>Consejo:</strong> Compra pocas prendas de talla RN — los bebés crecen muy rápido. Prioriza tallas 0-3M y 3-6M. ¡Meghan nacerá en pleno verano! Enfócate en ropa ligera primero.
+    💡 <strong>Consejo:</strong> Compra pocas prendas de talla RN — los bebés crecen muy rápido. Prioriza tallas 0-3M y 3-6M. ¡Xarami nacerá en pleno verano! Enfócate en ropa ligera primero.
   </div>
-  <footer>Hecho con ♡ para Yineisa & Meghan · 20.06.26</footer>
+  <footer>Hecho con ♡ para Yineisa & Xarami · 20.06.26</footer>
 </div>
 
 <!-- Modal -->
@@ -499,288 +501,6 @@ async function init() {
 }
 
 init();
-</script>
-</body>
-</html>  .badge-size{background:rgba(201,169,110,.12);color:var(--gold);}
-  .badge-price{background:rgba(154,171,142,.15);color:var(--sage);font-weight:500;}
-  .item-notes{font-size:11px;color:var(--muted);font-style:italic;line-height:1.5;}
-
-  .check-btn{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--sage-light);background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;transition:all .25s;color:transparent;margin-top:2px;}
-  .check-btn:hover{border-color:var(--sage);background:var(--sage-light);color:var(--sage);}
-  .item-card.bought .check-btn{background:var(--sage);border-color:var(--sage);color:white;}
-
-  /* Expandable extra fields */
-  .card-extra{margin-top:10px;padding-top:10px;border-top:1px solid rgba(201,169,110,.12);display:none;gap:8px;flex-direction:column;}
-  .card-extra.open{display:flex;}
-  .field-row{display:flex;align-items:center;gap:8px;}
-  .field-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);white-space:nowrap;min-width:72px;}
-  .field-input{flex:1;padding:7px 10px;border:1px solid var(--sage-light);border-radius:8px;font-family:'Jost',sans-serif;font-size:12px;color:var(--ink);background:var(--cream);outline:none;transition:border-color .2s;}
-  .field-input:focus{border-color:var(--sage);}
-  .field-input::placeholder{color:rgba(138,125,110,.5);}
-  .amazon-row{display:flex;gap:6px;align-items:center;}
-  .amazon-link{display:inline-flex;align-items:center;gap:4px;font-size:11px;color:white;background:#FF9900;padding:5px 10px;border-radius:8px;text-decoration:none;font-weight:500;white-space:nowrap;flex-shrink:0;}
-  .amazon-link:hover{opacity:.85;}
-  .amazon-link svg{width:13px;height:13px;fill:white;}
-
-  .expand-btn{font-size:10px;color:var(--muted);background:none;border:none;cursor:pointer;padding:2px 0;letter-spacing:.05em;text-decoration:underline;text-decoration-style:dotted;margin-top:4px;}
-  .expand-btn:hover{color:var(--sage);}
-
-  .tip-box{background:linear-gradient(135deg,rgba(154,171,142,.1),rgba(212,165,160,.07));border:1px solid var(--sage-light);border-radius:14px;padding:14px 18px;margin:24px 0;font-size:12px;color:var(--muted);line-height:1.7;}
-  .tip-box strong{color:var(--sage);font-weight:500;}
-  footer{text-align:center;margin-top:48px;font-size:11px;color:var(--sage-light);letter-spacing:.1em;}
-</style>
-</head>
-<body>
-<div class="container">
-  <header>
-    <p class="eyebrow">Bebé · Agosto · RN → 12 meses</p>
-    <h1>Lista de compras del <em>primer año</em></h1>
-    <p class="subtitle">Marca cada artículo al comprarlo. Añade precio, tienda y link de Amazon en cada uno.</p>
-  </header>
-
-  <div class="divider"><span class="divider-icon">✦</span></div>
-
-  <div class="stats">
-    <div class="stat"><span class="stat-num" id="total-count">0</span><span class="stat-label">Artículos</span></div>
-    <div class="stat"><span class="stat-num" id="bought-count">0</span><span class="stat-label">Comprados</span></div>
-    <div class="stat"><span class="stat-num" id="pending-count">0</span><span class="stat-label">Pendientes</span></div>
-    <div class="stat"><span class="stat-num" id="total-qty">0</span><span class="stat-label">Unidades</span></div>
-  </div>
-
-  <div class="progress-wrap">
-    <div class="progress-label"><span>Progreso total</span><span id="progress-pct">0%</span></div>
-    <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
-  </div>
-
-  <div class="filters" id="filters"></div>
-  <div class="items-list" id="items-list"></div>
-
-  <div class="tip-box">
-    💡 <strong>Consejo:</strong> Compra pocas prendas de talla RN — los bebés crecen muy rápido. Prioriza tallas 0-3M y 3-6M. ¡El bebé de agosto nacerá en pleno verano! Enfócate en ropa ligera primero.
-  </div>
-  <footer>Hecho con ♡ para este momento tan especial</footer>
-</div>
-
-<script>
-const sections = [
-  { id:"rn", label:"👶 Recién Nacido", items:[
-    {name:"Bodies manga corta (snap en entrepierna)",notes:"Básico, algodón 100%, abre fácil para cambios",qty:7,size:"RN / 0-3M",price:"8–12€"},
-    {name:"Mameluco/Pelele manga corta",notes:"Práctico para verano, preferir cremallera",qty:5,size:"RN / 0-3M",price:"10–15€"},
-    {name:"Camisetas interiores sin mangas",notes:"Para días muy calurosos debajo del body",qty:4,size:"RN",price:"6–10€"},
-    {name:"Pijamas de algodón con pies",notes:"Para noches frescas de A/C",qty:4,size:"RN / 0-3M",price:"12–18€"},
-    {name:"Gorrito de algodón",notes:"Para salidas al sol o cuartos fríos",qty:3,size:"RN",price:"4–8€"},
-    {name:"Calcetines suaves",notes:"Se pierden fácil, tener varios pares",qty:8,size:"RN / 0-3M",price:"5–8€ pack"},
-    {name:"Mantas muselina ligeras (swaddle)",notes:"Multifuncionales: arropar, cubrir, etc.",qty:4,size:"Talla única",price:"10–20€"},
-    {name:"Guantes anti-arañazos",notes:"Para las primeras semanas",qty:3,size:"RN",price:"4–7€"},
-    {name:"Baberos de tela fina",notes:"Para reflujo frecuente en recién nacidos",qty:6,size:"RN",price:"6–10€"},
-  ]},
-  { id:"0-3m", label:"🌱 0-3 Meses", items:[
-    {name:"Bodies manga corta",notes:"El básico más usado de esta etapa",qty:8,size:"0-3M",price:"8–12€"},
-    {name:"Bodies manga larga",notes:"Para cuando refresque (oct-nov)",qty:5,size:"0-3M",price:"8–12€"},
-    {name:"Mamelucos completos manga larga",notes:"Cremallera o snaps, fácil para noche",qty:5,size:"0-3M",price:"10–16€"},
-    {name:"Conjuntos casuales (pantalón + top)",notes:"Para salidas y visitas",qty:4,size:"0-3M",price:"15–22€"},
-    {name:"Chaqueta/Cardigan ligero",notes:"Para salidas con A/C o tardes frescas",qty:2,size:"0-3M",price:"14–20€"},
-    {name:"Medias/Calcetines antideslizantes",notes:"Mayor variedad de diseños",qty:8,size:"0-3M",price:"5–9€ pack"},
-    {name:"Gorro de tela (visera o bucket)",notes:"Protección solar para salidas",qty:2,size:"0-3M",price:"6–10€"},
-    {name:"Baberos de tela absorbente",notes:"Para etapa de lactancia y biberón",qty:8,size:"0-3M",price:"6–12€"},
-    {name:"Pañuelos/paños de muselina",notes:"Imprescindibles para eructos y limpiezas",qty:10,size:"Talla única",price:"8–15€ pack"},
-  ]},
-  { id:"3-6m", label:"🌿 3-6 Meses", items:[
-    {name:"Bodies manga larga",notes:"Base de todo outfit de invierno",qty:8,size:"3-6M",price:"8–12€"},
-    {name:"Pantalones de algodón/jogger",notes:"Cómodos para gatear y moverse",qty:5,size:"3-6M",price:"8–14€"},
-    {name:"Conjuntos de invierno (top + pantalón)",notes:"Materiales suaves tipo fleece o algodón grueso",qty:4,size:"3-6M",price:"16–24€"},
-    {name:"Pijamas enterizos con pies",notes:"Con cremallera, abrigados para invierno",qty:5,size:"3-6M",price:"12–18€"},
-    {name:"Abrigo/chaqueta de invierno",notes:"Con capucha, impermeable si es posible",qty:1,size:"3-6M",price:"25–45€"},
-    {name:"Calcetines gruesos / de lana",notes:"Para pies calentitos en invierno",qty:6,size:"3-6M",price:"6–10€ pack"},
-    {name:"Gorrito de lana o polar",notes:"Para días fríos",qty:2,size:"3-6M",price:"6–10€"},
-    {name:"Mameluco tipo mono abrigado",notes:"Para salidas con frío",qty:2,size:"3-6M",price:"20–30€"},
-    {name:"Baberos con manga (tipo babero artístico)",notes:"Empieza sólidos ~mes 4-6, muy útil",qty:5,size:"3-6M",price:"8–14€"},
-  ]},
-  { id:"6-9m", label:"🌸 6-9 Meses", items:[
-    {name:"Bodies manga corta (vuelve el calor)",notes:"Transición primavera",qty:6,size:"6-9M",price:"8–12€"},
-    {name:"Shorts y pantalones ligeros",notes:"Para el bebé más activo y curioso",qty:5,size:"6-9M",price:"8–13€"},
-    {name:"Conjuntos de primavera",notes:"Colores vivos, tejidos ligeros",qty:4,size:"6-9M",price:"14–20€"},
-    {name:"Pijamas enterizos",notes:"Sin pies si el calor aumenta",qty:4,size:"6-9M",price:"10–16€"},
-    {name:"Zapatitos/escarpines blandos",notes:"Primer calzado, no necesitan suela aún",qty:3,size:"6-9M",price:"10–18€"},
-    {name:"Calcetines antideslizantes",notes:"Empieza a estar de pie apoyado",qty:6,size:"6-9M",price:"5–9€ pack"},
-    {name:"Sombrero de ala ancha",notes:"Protección solar activa",qty:2,size:"6-9M",price:"8–14€"},
-    {name:"Baberos grandes impermeables",notes:"Comen sólidos con frecuencia ya",qty:6,size:"6-9M",price:"8–14€"},
-  ]},
-  { id:"9-12m", label:"🚀 9-12 Meses", items:[
-    {name:"Bodies y camisetas verano",notes:"Primer verano activo",qty:8,size:"9-12M",price:"7–11€"},
-    {name:"Shorts / faldas ligeras",notes:"Movilidad para gateo y primeros pasos",qty:5,size:"9-12M",price:"8–13€"},
-    {name:"Conjuntos de verano",notes:"Para salidas, excursiones, fotos",qty:5,size:"9-12M",price:"14–20€"},
-    {name:"Primeros zapatos con suela blanda",notes:"Cuando empiece a caminar o esté cerca",qty:2,size:"9-12M",price:"20–35€"},
-    {name:"Sandalias de verano",notes:"Cómodas, con velcro",qty:2,size:"9-12M",price:"15–25€"},
-    {name:"Calcetines de verano",notes:"Finos, cortos",qty:6,size:"9-12M",price:"5–8€ pack"},
-    {name:"Traje de baño (protección UV)",notes:"Para playa, piscina",qty:2,size:"9-12M",price:"12–20€"},
-    {name:"Pijamas de verano (manga corta)",notes:"Para la temporada calurosa",qty:4,size:"9-12M",price:"10–15€"},
-    {name:"Atuendo especial 1er cumpleaños 🎂",notes:"¡No olvidar el outfit para la celebración!",qty:1,size:"12M",price:"20–40€"},
-  ]},
-  { id:"accesorios", label:"🛍️ Accesorios Esenciales", items:[
-    {name:"Bolsa pañalera grande",notes:"Con compartimentos, imprescindible",qty:1,size:"Talla única",price:"25–50€"},
-    {name:"Cambiador portátil plegable",notes:"Para salidas fuera de casa",qty:2,size:"Talla única",price:"10–20€"},
-    {name:"Mochila portabebé ergonómica",notes:"Para paseos con manos libres",qty:1,size:"Talla única",price:"60–130€"},
-    {name:"Silla de paseo/carriola",notes:"Con capazo reclinable para recién nacido",qty:1,size:"Talla única",price:"150–500€"},
-    {name:"Hamaca/tumbona de bebé",notes:"Para descanso fuera de la cuna",qty:1,size:"0-6M",price:"40–90€"},
-    {name:"Protector solar bebé FPS 50+",notes:"Para salidas soleadas desde mes 6",qty:2,size:"Talla única",price:"8–15€"},
-    {name:"Pañuelos húmedos sin perfume",notes:"Comprar en cantidad, siempre faltan",qty:20,size:"Talla única",price:"2–4€/pack"},
-    {name:"Termómetro de oreja/frente",notes:"Imprescindible para fiebres nocturnas",qty:1,size:"Talla única",price:"20–45€"},
-    {name:"Cortauñas/limador bebé",notes:"Las uñitas crecen muy rápido",qty:1,size:"Talla única",price:"6–12€"},
-    {name:"Aspirador nasal (tipo Frida Baby)",notes:"Para cuando esté congestionado",qty:1,size:"Talla única",price:"15–25€"},
-  ]},
-  { id:"bano", label:"🛁 Baño y Cuidado", items:[
-    {name:"Bañera ergonómica para bebé",notes:"Con soporte anti-deslizante",qty:1,size:"0-12M",price:"20–45€"},
-    {name:"Toallas con capucha (bambú/algodón)",notes:"Suaves, absorbentes, 70x70cm mín.",qty:4,size:"Talla única",price:"10–18€"},
-    {name:"Toallitas de baño suaves",notes:"Para cara y pliegues de la piel",qty:6,size:"Talla única",price:"4–8€"},
-    {name:"Gel-champú sin lágrimas",notes:"Fórmula 2-en-1 sin sulfatos",qty:3,size:"Talla única",price:"5–10€"},
-    {name:"Crema hidratante bebé sin perfume",notes:"Para piel sensible del recién nacido",qty:3,size:"Talla única",price:"6–12€"},
-    {name:"Crema para el culito (óxido de zinc)",notes:"Prevención y tratamiento rozaduras",qty:3,size:"Talla única",price:"5–10€"},
-    {name:"Esponja natural suave",notes:"Para el baño diario",qty:2,size:"Talla única",price:"4–8€"},
-  ]},
-];
-
-// Flatten
-let allItems = [];
-sections.forEach(sec => {
-  sec.items.forEach((it,i) => {
-    allItems.push({...it, id:`${sec.id}-${i}`, section:sec.id, bought:false, shop:'', link:''});
-  });
-});
-
-// Load state
-function loadState() {
-  try {
-    const s = JSON.parse(localStorage.getItem('baby-lista-v2')||'{}');
-    allItems.forEach(it => {
-      if (s[it.id]) { it.bought=s[it.id].bought||false; it.shop=s[it.id].shop||''; it.link=s[it.id].link||''; }
-    });
-  } catch(e){}
-}
-function saveState() {
-  const s={};
-  allItems.forEach(it=>{ s[it.id]={bought:it.bought,shop:it.shop,link:it.link}; });
-  try{ localStorage.setItem('baby-lista-v2',JSON.stringify(s)); }catch(e){}
-}
-
-loadState();
-
-let currentFilter='todos';
-const filterDefs=[
-  {id:'todos',label:'Todos'},
-  {id:'rn',label:'👶 RN'},
-  {id:'0-3m',label:'🌱 0-3M'},
-  {id:'3-6m',label:'🌿 3-6M'},
-  {id:'6-9m',label:'🌸 6-9M'},
-  {id:'9-12m',label:'🚀 9-12M'},
-  {id:'accesorios',label:'🛍️ Accesorios'},
-  {id:'bano',label:'🛁 Baño'},
-];
-
-function buildFilters(){
-  document.getElementById('filters').innerHTML = filterDefs.map(f=>
-    `<button class="filter-btn ${f.id===currentFilter?'active':''}" onclick="setFilter('${f.id}',this)">${f.label}</button>`
-  ).join('');
-}
-
-function setFilter(id,btn){
-  currentFilter=id;
-  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  render();
-}
-
-function toggle(id){
-  const it=allItems.find(x=>x.id===id);
-  if(it){it.bought=!it.bought;saveState();render();}
-}
-
-function updateField(id,field,val){
-  const it=allItems.find(x=>x.id===id);
-  if(it){it[field]=val;saveState();}
-}
-
-function toggleExpand(id){
-  const el=document.getElementById('extra-'+id);
-  if(el) el.classList.toggle('open');
-  const btn=document.getElementById('expbtn-'+id);
-  if(btn) btn.textContent = el.classList.contains('open') ? '▲ Ocultar detalles' : '▼ Añadir tienda, precio y link';
-}
-
-function render(){
-  const list=document.getElementById('items-list');
-  const secFiltered = currentFilter==='todos' ? sections : sections.filter(s=>s.id===currentFilter);
-  let html='';
-
-  secFiltered.forEach(sec=>{
-    const secItems=allItems.filter(it=>it.section===sec.id);
-    if(!secItems.length) return;
-    const emoji=sec.label.split(' ')[0];
-    const title=sec.label.substring(sec.label.indexOf(' ')+1);
-    html+=`<div class="section-header"><span>${emoji}</span><span style="font-family:'Cormorant Garamond',serif;font-size:18px;">${title}</span><div class="section-line"></div></div>`;
-    secItems.forEach((it,idx)=>{
-      const hasData = it.shop||it.link;
-      const extraOpen = hasData ? 'open' : '';
-      const btnLabel = hasData ? '▲ Ocultar detalles' : '▼ Añadir tienda, precio y link';
-      const amazonBtn = it.link
-        ? `<a class="amazon-link" href="${it.link}" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.525.13.12.174.09.336-.12.48-.256.19-.6.41-1.006.67-1.244.75-2.584 1.303-4.02 1.67A18.5 18.5 0 0 1 12 22.7c-3.908 0-7.51-1.12-10.818-3.354-.23-.16-.284-.333-.138-.495zm2.168-5.13c-.09-.177-.034-.312.162-.403 2.06-.98 4.337-1.467 6.83-1.467 1.584 0 3.107.272 4.57.816l.38.146c.28.113.43.234.45.365.02.13-.06.25-.24.357-.18.107-.38.1-.6-.02a12.267 12.267 0 0 0-4.56-.832c-2.36 0-4.5.466-6.43 1.4-.22.108-.39.08-.56-.08zm.588-4.79c-.1-.13-.068-.27.093-.416l.193-.14C5.16 5.95 7.623 5.148 10.38 5.148c2.025 0 3.927.476 5.704 1.43.158.087.222.205.19.35-.032.146-.134.218-.303.218-.08 0-.163-.02-.25-.058a11.854 11.854 0 0 0-5.342-1.21c-2.554 0-4.84.73-6.858 2.19-.18.132-.34.12-.48-.03zm9.748 1.64c.42.012.793.14 1.12.38.326.24.49.57.49.99v.01c0 .315-.1.59-.294.83-.196.24-.474.405-.835.497l.963 1.218h-.944l-.862-1.1h-.506v1.1h-.78v-3.925h1.648zm-.046.647h-.822v1.37h.822c.228 0 .41-.06.543-.177a.59.59 0 0 0 .2-.46.575.575 0 0 0-.2-.455c-.134-.118-.315-.178-.543-.178zm-3.35-.647v3.925h-.78V9.74h.78zm-2.06 0v.66H5.54v.983h1.37v.647H5.54v.975H7.1v.66H4.76V9.74h2.333z"/></svg>
-            Ver en Amazon
-          </a>`
-        : '';
-
-      html+=`
-        <div class="item-card ${it.bought?'bought':''}" style="animation-delay:${idx*.025}s">
-          <div class="card-top">
-            <div class="item-info">
-              <div class="item-name">${it.name}</div>
-              <div class="item-badges">
-                <span class="badge badge-qty">×${it.qty}</span>
-                <span class="badge badge-size">${it.size}</span>
-                <span class="badge badge-price">~${it.price}</span>
-              </div>
-              <div class="item-notes">${it.notes}</div>
-              <button class="expand-btn" id="expbtn-${it.id}" onclick="toggleExpand('${it.id}')">${btnLabel}</button>
-            </div>
-            <button class="check-btn" onclick="toggle('${it.id}')" title="${it.bought?'Desmarcar':'Marcar como comprado'}">✓</button>
-          </div>
-
-          <div class="card-extra ${extraOpen}" id="extra-${it.id}">
-            <div class="field-row">
-              <span class="field-label">🏪 Tienda</span>
-              <input class="field-input" type="text" placeholder="Ej. Zara, H&M, El Corte Inglés…" value="${it.shop}"
-                oninput="updateField('${it.id}','shop',this.value)" />
-            </div>
-            <div class="field-row amazon-row">
-              <span class="field-label">🔗 Amazon</span>
-              <input class="field-input" type="url" placeholder="Pega aquí el link de Amazon" value="${it.link}"
-                oninput="updateField('${it.id}','link',this.value)" />
-              ${amazonBtn}
-            </div>
-          </div>
-        </div>`;
-    });
-  });
-
-  list.innerHTML = html || '<div style="text-align:center;padding:40px;color:var(--muted);">No hay artículos</div>';
-  updateStats();
-}
-
-function updateStats(){
-  const total=allItems.length;
-  const bought=allItems.filter(x=>x.bought).length;
-  const totalQty=allItems.reduce((a,b)=>a+b.qty,0);
-  const pct=total?Math.round(bought/total*100):0;
-  document.getElementById('total-count').textContent=total;
-  document.getElementById('bought-count').textContent=bought;
-  document.getElementById('pending-count').textContent=total-bought;
-  document.getElementById('total-qty').textContent=totalQty;
-  document.getElementById('progress-pct').textContent=pct+'%';
-  document.getElementById('progress-fill').style.width=pct+'%';
-}
-
-buildFilters();
-render();
 </script>
 </body>
 </html>
